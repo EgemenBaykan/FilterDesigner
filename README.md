@@ -38,7 +38,7 @@
 
 <p> Circuit topologies for High Pass and Low Pass Filters can be seen in image. Each circuit is labeled by its type, characteristic and cutoff frequency.</p>
 <img src="img/Simulation.png" alt="Filter topology used in simulation." style="width:300px;height:400px;">
-<p> Simulation outputs can be observed as given for given generated circuits. Butterworth Low Pass Filter output is plotted in blue color. Butterworth and Chebyshev High Pass Filters are plotted in red and cyan colors.</p>
+<p> Simulation outputs can be observed as following for given generated circuits. Butterworth Low Pass Filter output is plotted in blue color. Butterworth and Chebyshev High Pass Filters are plotted in red and cyan colors.</p>
 <img src="img/Simulation_Outputs.png" alt="Frequency Response in simulation." style="width:400px;height:300px;">
 
 
