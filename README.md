@@ -41,6 +41,10 @@
 <p> Simulation outputs can be observed as following for given generated circuits. Butterworth Low Pass Filter output is plotted in blue color. Butterworth and Chebyshev High Pass Filters are plotted in red and cyan colors.</p>
 <img src="img/Simulation_Outputs.png" alt="Frequency Response in simulation." style="width:400px;height:300px;">
 
+<p>For Bandstop Filter type simulation results may not be satisfying for good performance over attenuating the band. Transition width may need to be improved. Constructed circuit in LTSpice and simulation output is given as following.</p>
+
+<img src="img/BandstopFilter.png" alt="Filter topology used in simulation." style="width:400;height:300;">
+<img src="img/BandStopSimClose.png" alt="Filter topology used in simulation." style="width:400;height:300;">
 
 <h2> References </h2>
 <ol>
