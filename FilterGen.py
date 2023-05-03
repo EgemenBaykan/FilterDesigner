@@ -59,8 +59,15 @@ class Filter:
                     self.C[i-1] = (self.fcut_high - self.fcut_low) / (2*math.pi*self.fcut_high*self.fcut_low*self.impedance*coeff)
                     self.L[i-1] = (self.impedance*coeff) / (2 * math.pi * (self.fcut_high-self.fcut_low))
         elif(self.filter_type == 'BSF'):
-            print('Band stop filters are not implemented yet. Exiting the program.')
-            exit()
+            # Does not work properly.
+            for i in range(1, len(self.coeffs)):
+                coeff = self.coeffs[i]
+                if(i%2==0):
+                    self.C[i-1] = 1 / (2*math.pi*(self.fcut_high-self.fcut_low)*self.impedance*coeff)
+                    self.L[i-1] = ((self.fcut_high-self.fcut_low) * self.impedance * coeff) / (2*math.pi*self.fcut_high*self.fcut_low)
+                elif(i%2==1):
+                    self.C[i-1] = ((self.fcut_high-self.fcut_low) * coeff) / (2*math.pi*self.fcut_high*self.fcut_low*self.impedance)
+                    self.L[i-1] = self.impedance / (2 * math.pi * (self.fcut_high - self.fcut_low) * coeff)
         else:
             print('Invalid filter type. Exiting the program')
             exit()
