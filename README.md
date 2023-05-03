@@ -43,8 +43,8 @@
 
 <p>For Bandstop Filter type simulation results may not be satisfying for good performance over attenuating the band. Transition width may need to be improved. Constructed circuit in LTSpice and simulation output is given as following.</p>
 
-<img src="img/BandstopFilter.png" alt="Filter topology used in simulation." style="width:400;height:300;">
-<img src="img/BandStopSimClose.png" alt="Filter topology used in simulation." style="width:400;height:300;">
+<img src="img/BandstopFilter.png" alt="Filter topology used in simulation." style="width:400;height:300;"></img>
+<img src="img/BandStopSimClose.png" alt="Filter topology used in simulation." style="width:400;height:300;"></img>
 
 <h2> References </h2>
 <ol>
