@@ -50,7 +50,6 @@
 <h3> Upcoming Updates </h3>
 <ul> 
     <li>Getopt structure will be implemented.</li>
-    <li>Band Stop Filters will be implemented.</li>
     <li>AC Analysis will be implemented. Simulation will be integrated within single script.</li>
     <li>User Interface may be implemented.</li>
 </ul>
