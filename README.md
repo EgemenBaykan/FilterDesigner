@@ -47,7 +47,7 @@
 <p></p>
 <img src="img/BandStopSim.png" alt="Filter topology used in simulation." style="width:400px;height:300px;"></img>
 
-<p>Using circuit topologies in Filter_Simulations.asc file will be practical. Kicad files for given circuit topologies can be found in Kicad folder. GERBER files can be directly loaded to a PCB manufacturer. These circuits are designed by using 0603 / 1608 (metric) components. Therefore, power will be limited.</p>
+<p>Using circuit topologies in Filter_Simulations.asc file will be practical. Pi filter topology is used in this filter simulation file. Kicad files for given circuit topologies can be found in Kicad folder. GERBER files can be directly loaded to a PCB manufacturer. These circuits are designed by using 0603 / 1608 (metric) components. Therefore, power will be limited.</p>
 
 <h2> References </h2>
 <ol>
