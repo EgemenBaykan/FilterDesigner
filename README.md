@@ -45,7 +45,7 @@
 
 <img src="img/BandStopFilter.png" alt="Filter topology used in simulation." style="width:400;height:300;"></img>
 <p></p>
-<img src="img/BandStopSimClose.png" alt="Filter topology used in simulation." style="width:400;height:300;"></img>
+<img src="img/BandStopSim.png" alt="Filter topology used in simulation." style="width:400;height:300;"></img>
 
 <h2> References </h2>
 <ol>
